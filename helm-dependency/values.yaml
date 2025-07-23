@@ -1,9 +1,10 @@
 wordpress:
   image:
-    tag: latest #break this app on purpose until a dedicated broken app is created
+    tag: latest  # or use a real tag like "6.4.3"
   wordpressPassword: foo
   mariadb:
     db:
       password: bar
     rootUser:
       password: baz
+
